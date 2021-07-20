@@ -1,11 +1,30 @@
 # Portfolio
 
-The project designs were inspired by figma and every created was redesigned with the guide lines of figma templates.
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+The goal of this project is to learn how parse a Figma design to create a UI, and use Flexbox to place elements in the page.
+
+
+
+- Screenshoot I
+
+![screenshot](./image/mob1.PNG)
+
+
+- Screenshoot II
+![screenshot](./image/mob2.PNG)
+
+
+- Screenshoot III
+![screenshot](./image/mob3.PNG)
+
+
+- set up a new repository and prepare it for development using best practices.
+- build mobile website.
  
 
 ## Live Demo
 
-[Live Demo Link](/)
+[Live Demo Link](https://http://127.0.0.1:5500/index.html/)
  
 ## Built With
 
@@ -32,10 +51,10 @@ Run the command below from the Terminal:
 
 👤 **Ellis Ng'ona**
 
-- Location: Zambia
-- GitHub: [@mwanawabangona](https://github.com/mwanawabangona)
-- Twitter: [@Ellis_aah](https://twitter.com/Ellis_aah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in)
+- Location: zambia
+- GitHub: [@mwanawabangona](https://github.com/@mwanawabangona)
+- Twitter: [@Ellis_ahh](https://twitter.com/Ellis_ahh)
+- LinkedIn: [LinkedIn](https://www.linkedin.com)
 
 
 ## 🤝 Contributing
@@ -50,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse
+- Thanks to Microverse to made it
 - My learning and coding partners
 
 ## 📝 License
