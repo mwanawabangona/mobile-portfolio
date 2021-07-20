@@ -433,7 +433,7 @@ a.btn-two {
   text-align: center;
   color: #6070ff;
   display: flex;
- align-content: center;
+  align-content: center;
   padding: 12px;
   border-radius: 8px;
   background: #fff;
