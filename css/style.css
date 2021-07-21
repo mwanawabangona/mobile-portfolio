@@ -7,11 +7,12 @@
 html {
   background: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-}
+  }
 
 body {
   font-weight: normal;
   color: #091e42;
+  margin-bottom: 0em;
 }
 
 .container {
@@ -27,6 +28,7 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  margin-bottom: 0em;
 }
 
 .navbar {
@@ -425,6 +427,7 @@ a.btn-two {
 }
 
 #bttn {
+  cursor: pointer;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
