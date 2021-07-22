@@ -24,7 +24,7 @@ The goal of this project is to learn how parse a Figma design to create a UI, an
 
 ## Live Demo
 
-[Live Demo Link](https://mwanawabangona.github.io/)
+[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
  
 ## Built With
 
