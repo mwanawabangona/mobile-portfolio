@@ -358,7 +358,7 @@ a.btn-two {
 }
 
 .contacts-form {
-  background: url("./assets/images/contact_background.png");
+  background: url("../image/contactbackground.png");
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: top right;
