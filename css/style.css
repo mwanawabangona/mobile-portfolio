@@ -7,11 +7,12 @@
 html {
   background: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-}
+  }
 
 body {
   font-weight: normal;
   color: #091e42;
+  margin-bottom: 0em;
 }
 
 .container {
@@ -351,13 +352,17 @@ a.btn-two {
   padding-bottom: 50px;
 }
 
-.img-b {
-  margin-bottom: 250px;
-}
-
 .form {
   position: relative;
-  bottom: 900px;
+  top: 10em;
+  right: 10em;
+  width: auto;
+  height: 10px;
+  margin: auto;
+  margin-left: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 100px;
 }
 
 .form-text {
@@ -367,8 +372,8 @@ a.btn-two {
   line-height: 52px;
   color: #fff;
   position: relative;
-  bottom: 60em;
-  left: 16em;
+  bottom: 16em;
+  left: 2.6em;
 }
 
 .form-paragraph {
@@ -378,14 +383,21 @@ a.btn-two {
   line-height: 28px;
   color: #ebebff;
   position: relative;
-  bottom: 118em;
-  left: 25em;
+  bottom: 30em;
+  left: 6em;
+}
+
+.top-pg {
+  position: relative;
+  top: 10em;
 }
 
 .forms {
+  display: flexbox;
+  flex-direction: column;
   position: relative;
-  bottom: 145em;
-  left: 35em;
+  bottom: 25em;
+  left: 7em;
   height: 50px;
 }
 
@@ -425,6 +437,7 @@ a.btn-two {
 }
 
 #bttn {
+  cursor: pointer;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -444,10 +457,10 @@ a.btn-two {
 
 .ecli {
   position: relative;
-  bottom: 105em;
+  bottom: -10em;
 }
 
-@media all and (max-width: 480px) {
+
   .navbar {
     flex-direction: column;
   }
@@ -458,4 +471,4 @@ a.btn-two {
     right: 15px;
     top: 15px;
   }
-}
+
