@@ -373,7 +373,7 @@ a.btn-two {
   color: #fff;
   position: relative;
   bottom: 16em;
-  left: 2.6em;
+  left: 2.5em;
 }
 
 .form-paragraph {
@@ -384,7 +384,7 @@ a.btn-two {
   color: #ebebff;
   position: relative;
   bottom: 30em;
-  left: 6em;
+  left: 3em;
 }
 
 .top-pg {
@@ -397,7 +397,7 @@ a.btn-two {
   flex-direction: column;
   position: relative;
   bottom: 25em;
-  left: 7em;
+  left: 3em;
   height: 50px;
 }
 
@@ -471,4 +471,3 @@ a.btn-two {
     right: 15px;
     top: 15px;
   }
-
