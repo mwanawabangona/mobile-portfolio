@@ -7,7 +7,9 @@
 html {
   background: #e5e5e5;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
+
 body {
   font-weight: normal;
   color: #091e42;
@@ -280,6 +282,7 @@ a.connect {
   font-size: 15px;
   padding: 4px 12px;
   color: #6070ff;
+  padding: 1px;
 }
 
 .btn-one {
@@ -292,6 +295,7 @@ a.connect {
   position: relative;
   top: 10px;
   right: 10px;
+  padding: 0px;
 }
 
 .btn-two {
@@ -371,7 +375,7 @@ a.btn-two {
   color: #fff;
   position: relative;
   bottom: 16em;
-  left: 2.5em;
+  left: 2.1em;
 }
 
 .form-paragraph {
@@ -383,9 +387,10 @@ a.btn-two {
   color: #ebebff;
   position: relative;
   bottom: 30em;
-  left: 2em;
+  left: -0.5em;
   margin-right: 30px;
   margin-left: 30px;
+  padding-right: 20px;
 }
 
 .top-pg {
@@ -408,7 +413,7 @@ a.btn-two {
   font-weight: 400;
   line-height: 20px;
   height: 48px;
-  width: 447px;
+  width: 300px;
   border-radius: 2px;
   border: 1px solid #cfd8dc;
   color: #172b4d;
@@ -420,7 +425,7 @@ a.btn-two {
   font-weight: 400;
   line-height: 20px;
   height: 48px;
-  width: 447px;
+  width: 300px;
   border-radius: 2px;
   border: 1px solid #cfd8dc;
   color: #172b4d;
@@ -432,7 +437,7 @@ a.btn-two {
   font-weight: 400;
   line-height: 24px;
   height: 170px;
-  width: 447px;
+  width: 300px;
   border-radius: 2px;
   border: 1px solid #cfd8dc;
 }
@@ -451,7 +456,7 @@ a.btn-two {
   border-radius: 8px;
   background: #fff;
   position: relative;
-  left: 6em;
+  left: 5em;
   border: 1px solid #cfd8dc;
   top: 6px;
 }
