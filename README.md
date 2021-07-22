@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
