@@ -7,12 +7,12 @@
 html {
   background: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-  }
+}
 
 body {
   font-weight: normal;
   color: #091e42;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 .container {
@@ -460,15 +460,13 @@ a.btn-two {
   bottom: -10em;
 }
 
+.navbar {
+  flex-direction: column;
+}
 
-  .navbar {
-    flex-direction: column;
-  }
-
-  .menu {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-  }
-
+.menu {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
