@@ -259,31 +259,46 @@
 </div>
 </section>
 
-<section class="img-b">
-  <img src="../image/headerbackground.png" alt="">
-</section>
-
-<section class="form">
-  <h2></h2>
-  <img src="../image/contactbackground" alt="backgroud-imgae">
-</section>
-
-<section class="ecli">
-  <img src="../image/contactcircle.png" alt="icons">
-</section>
-
-<p class="form-text">Contact me</p>
-<p class="form-paragraph">If you have application you are interested in developing,<br> a feature that you need built or a project
-  that needs coding, <br>i'd love to help with it.
-</p>
-
-<section class="forms">
-<form action="#" method="post">
-  <input type="text" id="fname" name="firstname" maxlength="30" placeholder="Ellis Ng'ona" required><br><br>
-  <input type="email" id="email" name="_replyto" placeholder="ellisallday@gmail.com" required><br><br>
-  <textarea name="messaage" id="subject" maxlength="500" placeholder="write your messaage here" required></textarea>
-  <input type="submit" id="bttn" value="Get in touch">
-</form>
+<section class="contact-wrapper">
+  <section id="contact" class="contacts-form">
+    <h1>Contact me</h1>
+    <p>
+      If you have an application you are interested in developing, a
+      feature that you need built or a project that needs coding. I’d love
+      to help with it
+    </p>
+    <form action="https://formspree.io/f/xgerldko" method="POST">
+      <input
+        type="text"
+        maxlength="30"
+        class="name"
+        name="name"
+        placeholder="Name"
+        required
+      />
+      <input
+        type="email"
+        class="email"
+        name="email"
+        placeholder="Email"
+        required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      />
+      <textarea
+        maxlength="500"
+        name="message"
+        id="message"
+        cols="30"
+        rows="7"
+        class="msg"
+        required
+        placeholder="Enter your message here"
+      ></textarea>
+      <button type="submit" class="project-button send">
+        Get in Touch
+      </button>
+    </form>
+  </section>
 </section>
 
   </body>
