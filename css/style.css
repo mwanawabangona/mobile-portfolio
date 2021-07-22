@@ -300,7 +300,6 @@ a.connect {
 
 .btn-two {
   border: 1px solid #4053fc;
-  background: #4053fc;
   padding: 7px;
   border-radius: 4%;
   font-size: 17px;
@@ -317,7 +316,6 @@ a.btn-one {
 }
 
 a.btn-two {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -374,8 +372,8 @@ a.btn-two {
   line-height: 52px;
   color: #fff;
   position: relative;
-  bottom: 16em;
-  left: 2.1em;
+  bottom: 12em;
+  left: 1.6em;
 }
 
 .form-paragraph {
@@ -386,16 +384,11 @@ a.btn-two {
   line-height: 24px;
   color: #ebebff;
   position: relative;
-  bottom: 30em;
-  left: -0.5em;
+  bottom: 23em;
+  left: 1em;
   margin-right: 30px;
   margin-left: 30px;
   padding-right: 20px;
-}
-
-.top-pg {
-  position: relative;
-  top: 10em;
 }
 
 .forms {
