@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 
 .nav-list {
@@ -392,8 +393,6 @@ a.btn-two {
 }
 
 .forms {
-  display: flexbox;
-  flex-direction: column;
   position: relative;
   bottom: 25em;
   left: 3em;
@@ -457,11 +456,6 @@ a.btn-two {
 .ecli {
   position: relative;
   bottom: -10em;
-}
-
-
-.navbar {
-  flex-direction: column;
 }
 
 .menu {
