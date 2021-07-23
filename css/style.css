@@ -121,7 +121,7 @@ body {
 
 .headline-text {
   padding-top: 80px;
-  padding-left: 300px;
+  padding-left: 120px;
   font-size: 18px;
 }
 
@@ -484,16 +484,17 @@ form {
     text-decoration: none;
     font-size: 20px;
   }
-.menu {
-  display: block;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-}
 
-form  {
-  width: 80%;
-}
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  form {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
