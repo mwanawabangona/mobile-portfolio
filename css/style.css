@@ -13,12 +13,11 @@ html {
 body {
   font-weight: normal;
   color: #091e42;
+  background: #e5e5e5;
 }
 
 .container {
-  max-width: 900px;
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -36,6 +35,7 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .nav-list {
@@ -58,6 +58,10 @@ body {
   color: #5571fe;
   text-decoration: none;
   font-size: 20px;
+}
+
+.work {
+  width: 80%;
 }
 
 .work-container a {
@@ -112,11 +116,13 @@ body {
   padding-bottom: 100px;
   border-bottom-left-radius: 110px;
   background-image: url("../image/header_background.png");
+  overflow-x: hidden;
 }
 
 .headline-text {
   padding-top: 80px;
-  padding-left: 15px;
+  padding-left: 300px;
+  font-size: 18px;
 }
 
 .headline-text p {
@@ -135,7 +141,7 @@ body {
   letter-spacing: 0.37px;
   color: #091e42;
   margin: 40px 10px 30px 0;
-  font-size: 35px;
+  font-size: 43px;
 }
 
 .connect h6 {
@@ -211,7 +217,7 @@ a.connect {
 }
 
 .work-container {
-  width: 100%;
+  width: 109%;
   padding: 2rem;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -236,7 +242,7 @@ a.connect {
 }
 
 .work-container > ul > li > img {
-  width: 100%;
+  width: 90%;
 }
 
 .work-container > ul > li > p {
@@ -293,7 +299,7 @@ a.connect {
   font-weight: 300;
   text-transform: capitalize;
   position: relative;
-  top: 10px;
+  top: 18px;
   right: 10px;
 }
 
@@ -305,7 +311,7 @@ a.connect {
   font-weight: 300;
   text-transform: capitalize;
   position: relative;
-  top: 10px;
+  top: 20px;
   right: 10px;
 }
 
@@ -325,6 +331,7 @@ a.btn-two {
 .section-about {
   background-color: white;
   border-top-right-radius: 100px;
+  overflow-x: hidden;
 }
 
 .section-about h1 {
@@ -389,6 +396,12 @@ a.btn-two {
   text-align: center;
   font-size: 1.25rem;
   margin-bottom: 40px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .email {
@@ -471,8 +484,6 @@ a.btn-two {
     text-decoration: none;
     font-size: 20px;
   }
-}
-
 .menu {
   display: block;
   position: absolute;
@@ -480,7 +491,12 @@ a.btn-two {
   top: 15px;
 }
 
-@media only screen and (min-width: 768px) {
+form  {
+  width: 80%;
+}
+}
+
+@media only screen and (min-width: 992px) {
   /* Desktop version */
   .navbar {
     display: flex;
