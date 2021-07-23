@@ -331,7 +331,7 @@ a.btn-two {
 .section-about {
   background-color: white;
   border-top-right-radius: 100px;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .section-about h1 {
