@@ -505,5 +505,7 @@ a.btn-two {
     padding: 10px;
     border-top: 1px solid white;
     color: black;
+    position: relative;
+    left: 250px;
   }
 }
