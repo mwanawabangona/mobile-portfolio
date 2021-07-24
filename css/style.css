@@ -360,7 +360,7 @@ a.btn-two {
 
 .contact-form {
   background-color: #fff;
-}
+  }
 
 .contacts-form {
   background: url("../image/contactbackground.png");
@@ -452,6 +452,8 @@ form {
   margin-bottom: 32px;
   border: none;
   padding: 14px;
+  transform: scale(1);
+  background-color: black;
 }
 
 .send:hover {
