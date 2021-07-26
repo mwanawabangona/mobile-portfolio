@@ -60,7 +60,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](..https://github.com/mwanawabangona/mobile-portfolio.git/issues/).
+Feel free to check the [issues page](..https://github.com/mwanawabangona/mobile-portfolio.git/ issues/).
 
 ## Show your support
 
