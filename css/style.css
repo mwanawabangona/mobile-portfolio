@@ -7,7 +7,7 @@
 html {
   background: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 body {
@@ -100,6 +100,25 @@ body {
   width: 100%;
   margin-left: 10px;
   margin-top: 10px;
+}
+
+.logo:hover {
+  animation: shake 0.5s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .menu-line {
@@ -226,6 +245,47 @@ a.connect {
   list-style-type: none;
   border-radius: 24px;
 }
+/*
+.work-container:hover {
+  box-shadow: 5px 5px 5px 5px rgba(197, 201, 250, 0.8);
+  overflow-x: auto;
+}
+*/
+.btn-one:hover {
+  background-color: blue;
+text-decoration:none;
+padding: 15px 25px;
+font-family: sans-serif;
+font-size: 25px;
+color: #fff;
+border-radius:10px;
+display: inline-block;
+transition: .8s ease
+}
+
+.btn-two:hover {
+  background-color: blue;
+text-decoration:none;
+padding: 15px 25px;
+font-family: sans-serif;
+font-size: 25px;
+color: #fff;
+border-radius:10px;
+display: inline-block;
+transition: .8s ease
+}
+
+.blinking{
+  animation:blinkingText 4s infinite;
+}
+@keyframes blinkingText{
+  50%{     color: #7f8cff;;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
 
 .work-container > ul {
   display: grid;
@@ -456,6 +516,23 @@ form {
 
 .send:hover {
   border: 1px solid white;
+}
+
+.nav-list {
+  animation-duration: 8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 769px) {
