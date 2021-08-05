@@ -12,7 +12,6 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-  <script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -28,19 +27,20 @@
   <nav class="navbar">
         <div class="logo">
             <a href="#"> My Logo </a>
+            <p class="cross" id="close">&times;</p>
         </div>
-            <ul class="nav-list">
+            <ul class="nav-list"  id="menuid">
                 <li class="list-item">
-                    <a href="nav-list"> Portfolio </a>
+                    <a href="#portfolio-section"> Portfolio </a>
                 </li>
                 <li class="list-item">
-                    <a href="nav-list"> About </a>
+                    <a href="#about"> About </a>
                 </li>
                 <li class="list-item">
-                    <a href="nav-list"> Contact </a>
+                    <a href="#contact"> Contact </a>
                 </li>
             </ul>
-        <div class="menu">
+        <div class="menu" id="myMenu"> 
             <div class="menu-line"></div>
             <div class="menu-line"></div>
             <div class="menu-line"></div>
@@ -66,7 +66,7 @@
       </div>
   </section>
 
-  <section class="section1">
+  <section class="section1" id="portfolio-section">
           <ul class="section-wrap">
                <li class="work">            
                   <div class="work-container">
@@ -208,7 +208,7 @@
 <div class="about-grid">
     <div class="text">
       <div class="headline-text">
-          <h1 class="second-text">About Myself</h1>
+          <h1 class="second-text" id="about">About Myself</h1>
 
             <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a
              project you need coded, don’t hestiate to contact me.</p>
@@ -312,6 +312,6 @@
     </form>
   </section>
 </section>
-
+<script src="menumobile.js"></script>
   </body>
 </html>

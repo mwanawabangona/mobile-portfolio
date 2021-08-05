@@ -464,12 +464,23 @@ form {
     flex-direction: column;
   }
 
+  .cross {
+    font-size: 40px;
+    position: relative;
+    left: 86%;
+    bottom: 130%;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+  }
+
   .nav-list {
     list-style-type: none;
     width: 100%;
     text-align: center;
     padding-top: 15px;
     display: none;
+    margin-top: 20%;
   }
 
   .nav-list .list-item {
@@ -505,6 +516,10 @@ form {
     align-items: center;
     padding-left: 160px;
   }
+  
+.cross {
+  display: none;
+}
 
   .nav-list {
     list-style-type: none;
