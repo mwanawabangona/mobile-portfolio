@@ -516,10 +516,10 @@ form {
     align-items: center;
     padding-left: 160px;
   }
-  
-.cross {
-  display: none;
-}
+
+  .cross {
+    display: none;
+  }
 
   .nav-list {
     list-style-type: none;
