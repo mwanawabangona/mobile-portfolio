@@ -39,7 +39,7 @@ ul {
 .myMenu ul {
   width: 40%;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -55,8 +55,9 @@ ul {
 .myMenu ul li {
   position: relative;
   list-style: none;
-  margin: 35px auto;
+  margin: 10px;
   z-index: 999;
+  bottom: 60px;
 }
 
 .ul-navbar li a {
@@ -64,13 +65,13 @@ ul {
 }
 
 .myMenu ul li a {
-  font-size: 24px;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 32px;
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   transition: 300ms ease-in-out;
   cursor: pointer;
 }

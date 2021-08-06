@@ -1,75 +1,62 @@
-# Portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-The project is inspired by the figma microverse template 1 (https://figma.com/)
-The goal of this project is to learn how parse a Figma design to create a UI, and use Flexbox to place elements in the page.
+# My Portfolio
 
+> The Portfolio project, basically a figma template where we applied some javascript with my programming partners of this week.  
 
+![screenshot](image/menu.png)
+![screenshot](image/menu2.png)
 
-- Screenshoot I
+This project is built with various sections, the "Header" "Headline", e.tc.  `The mobile Menu` is in the header section of the mobile version, which includes the logo, and navbar, and background templates. All elements (background and icons, logo) were exported from Figma phototypes. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
 
-![screenshot](./image/mob1.PNG)
-
-
-- Screenshoot II
-![screenshot](./image/mob2.PNG)
-
-
-- Screenshoot III
-![screenshot](./image/mob3.PNG)
-
-
-- set up a new repository and prepare it for development using best practices.
-- build mobile website.
- 
-
-## Live Demo
-
-[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
- 
 ## Built With
 
 - HTML
 - CSS
-- HTML&CSS Linter
+- Js
 
-## Get Started
+## Live Demo
+- [Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
 
-Please get your browser update.
-To get a local copy up and running follow these simple steps.
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-Run the command below from the Terminal:
-
-      git clone <URL> https://github.com/mwanawabangona/mobile-portfolio in your terminal
-
-	  cd: deploy
+- You can clone this repo by typing git clone `https://github.com/mwanawabangona/mobile-portfolio` on your terminal
+- Type cd `mobile-menu` to access the project on the terminal
 
 
+### Prerequisites
+- Text editor
+- Git
+- Html
+- CSS
+- Js
+
+## Author
+👤 **Ellis**
+
+- GitHub: [@githubhandle](https://github.com/mwanawabangona)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+
+## Collaborators
+
+👤 **Yannick-Noel AKA**
+- GitHub: [@githubhandle](https://github.com/codecaiine)
 
 
-## Authors
+👤 **Paka**
 
-👤 **Ellis Ng'ona**
+- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
 
-- Location: zambia
-- GitHub: [@mwanawabangona](https://github.com/@mwanawabangona)
-- Twitter: [@Ellis_ahh](https://twitter.com/Ellis_ahh)
-- LinkedIn: [LinkedIn](https://www.linkedin.com)
-
-
-## 🤝 Contributing
+## 🤝⭐️ Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](..https://github.com/mwanawabangona/mobile-portfolio.git/ issues/).
+Feel free to check the [issues page](https://github.com/mwanawabangona/mobile-portfolio/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Thanks to Microverse to made it
-- My learning and coding partners
 
 ## 📝 License
 
