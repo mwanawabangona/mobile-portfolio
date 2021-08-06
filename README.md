@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone <URL> in your terminal
+      git clone <URL> 'https://github.com/mwanawabangona/mobile-portfolio' in your terminal
 
 	  cd microverse_portfolio
 
@@ -49,7 +49,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/codecaiine/microverse-javascript/issues).
+Feel free to check the [issues page](https://github.com/mwanawabangona/mobile-portfolio/issues).
 
 ## Show your support
 
