@@ -1,75 +1,59 @@
-# Portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-The project is inspired by the figma microverse template 1 (https://figma.com/)
-The goal of this project is to learn how parse a Figma design to create a UI, and use Flexbox to place elements in the page.
+# My Portfolio
 
+> The Portfolio project, basically a figma template where we some javascript with my programming partners of thos week.  
 
+![screenshot](image/menu.png)
+![screenshot](image/menu2.png)
 
-- Screenshoot I
+This project is build in three sections, the "Header" "Headline", second section includes "Works" and "About Me" page, third section in the footer is Contact form.  `The mobile Menu` is in the header section of the mobile version, which uncludes the logo, named "My Logo" and navbar, and background template, icons. The second section includes pictures and icons. Third section a background template. All elements (background and icons, logo) were exported from Figma phototype. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
 
-![screenshot](./image/mob1.PNG)
-
-
-- Screenshoot II
-![screenshot](./image/mob2.PNG)
-
-
-- Screenshoot III
-![screenshot](./image/mob3.PNG)
-
-
-- set up a new repository and prepare it for development using best practices.
-- build mobile website.
- 
-
-## Live Demo
-
-[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
- 
 ## Built With
 
 - HTML
 - CSS
-- HTML&CSS Linter
+- Js
 
-## Get Started
+## Live Demo
+- [Live Demo Link](https://raw.githack.com/OLIPLICHE/My-Portfolio/mobileJs/index.html)
 
-Please get your browser update.
-To get a local copy up and running follow these simple steps.
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-Run the command below from the Terminal:
-
-      git clone <URL> https://github.com/mwanawabangona/mobile-portfolio in your terminal
-
-	  cd: deploy
+- You can clone this repo by typing git clone `https://github.com/OLIPLICHE/My-Portfolio.git` on your terminal
+- Type cd `My-Portfolio` to access the project on the terminal
 
 
+### Prerequisites
+- Text editor
+- Git
+- Html
+- CSS
+- Js
 
+## Author
+👤 **Ellis**
 
-## Authors
+- GitHub: [@githubhandle](https://github.com/mwanawabangona)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
-👤 **Ellis Ng'ona**
+## Collaborators
 
-- Location: zambia
-- GitHub: [@mwanawabangona](https://github.com/@mwanawabangona)
-- Twitter: [@Ellis_ahh](https://twitter.com/Ellis_ahh)
-- LinkedIn: [LinkedIn](https://www.linkedin.com)
+👤 **Yannick-Noel AKA**
+- GitHub: [@githubhandle](https://github.com/codecaiine)
+👤 **Paka**
+- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
 
-
-## 🤝 Contributing
+## 🤝⭐️ Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](..https://github.com/mwanawabangona/mobile-portfolio.git/ issues/).
+Feel free to check the [issues page](https://github.com/OLIPLICHE/My-Portfolio/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Thanks to Microverse to made it
-- My learning and coding partners
 
 ## 📝 License
 
