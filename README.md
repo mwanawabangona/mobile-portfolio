@@ -10,7 +10,7 @@ For this portfolio website, I implemented a popup window that includes the proje
 
 ## Live Demo
 
-[Live Demo Link](https://codecaiine.github.io/microverse-javascript)
+[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
  
 ## Built With
 
