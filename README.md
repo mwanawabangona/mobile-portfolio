@@ -12,7 +12,7 @@ For this portfolio website, is about of implemention of a client-side validation
 
 ## Live Demo
 
-[Live Demo Link](https://codecaiine.github.io/microverse-javascript)
+[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
  
 ## Built With
 
