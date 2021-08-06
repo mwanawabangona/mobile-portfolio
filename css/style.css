@@ -452,6 +452,8 @@ form {
   margin-bottom: 32px;
   border: none;
   padding: 14px;
+  transform: scale(1);
+  background-color: black;
 }
 
 .send:hover {
