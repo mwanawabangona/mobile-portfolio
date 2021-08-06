@@ -1,375 +1,341 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXBV13V4WN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-WXBV13V4WN');
-    </script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
-    <title>Ellis Portfolio</title>
-  </head>
-  <body>
 
-  <div id="menuId" class="myMenu">
-    <ul >
-      <li class="claList"><a href="#portfolio">Portfolio</a></li>
-      <li class="claList"><a href="#about">About</a></li>
-      <li class="claList"><a href="#contact">Contact</a></li>
-    </ul>
-    <img src="./image/IconX.svg" alt="Close Menu" class="close" id="closeMenu">
-  </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./css/styles.css" rel="stylesheet">
 
-    <header id="header">
-      <div class="header-container">
-        <div class="logo">
-          <a href="https://github.com/OLIPLICHE/portfolio/pull/1">My Logo</a>
-        </div>
-        <nav class="navbar">
-          <ul class="ul-navbar">
-            <li><a class="a-navbar" href="#Portfolio">Portfolio</a></li>
-            <li><a class="a-navbar" href="#About">About</a></li>
-            <li><a class="a-navbar" href="#Contact">Contact</a></li>
-          </ul>
-          <div class="humberger" id="humbergerShape">
-            <i class="fa fa-bars"></i>
-          </div>
+    <title> Ellis Portfolio</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#">My Logo</a>
+            </div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <div class="myMenu">
+                <ul class="nav-list">
+                    <li><a href="#portfolio" class="list-item">Portfolio</a></li>
+                    <li><a href="#about" class="list-item">About</a></li>
+                    <li><a href="#contact" class="list-item">Contact</a></li>
+                </ul>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </div>
         </nav>
-      </div>
     </header>
-    <main id="main-container">
-      <section class="headline">
-        <div class="headline-main-container">
-          <h1 class="welcome">
-            I'm Ellis <br />
-            Glad to see
-            you!
-          </h1>
-          <p class="intro">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-          <div class="link-up">
-            <h2>LET'S CONNECT</h2>
-            <div class="social-list">
-              <ul>
-                <li>
-                  <a href="#"><img alt="github" src="image/github.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="twitter" src="image/twitter.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="image/Linkedin_icon.png" alt="linkedin"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="medium" src="image/medium.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="angellist" src="image/angellist.png"/></a>
-                </li>
-              </ul>
+
+    <section class="headlines" id="top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="first-text">I’m Ellis<br> Glad to see you!</h1>
+                    <p>
+                        Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <a href="#">Let's connect</a>
+                    <ul class="media">
+                        <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-    </main>
-    <section id="workers" id="portfolio">
-      <ul class="boxes">
-        <li class="box box1">
-          <div class="box-div one">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio.svg" class="img" alt="tonic"/>
-            </div>
-            <div class="last-2">
-              <h4>Tonic</h4>
-              <address>Facebook 360</address>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="box box2">
-          <div class="box-div third">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio(3).svg" class="img" alt="stories"/>
-            </div>
-            <div class="last-2">
-              <h4>Multi-Post Stories</h4>
-              <h6>Multi-Post Stories</h6>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>  
-          </div>
-        </li>
-        <li class="box box3">
-          <div class="box-div one">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio(2).svg" class="img_ignore" alt="facebook"/>
-              <img src="image/Snapshoot-first.svg" class="img1" alt="facebook"/>
-            </div>
-            <div class="last-2">
-              <h4>Tonic</h4>
-              <h6>Multi-Post Stories</h6>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="box box4">
-          <div class="box-div last">
-            <div class="Tonic last-1">
-              <img src="image/SnapshootPortfolio(1).svg" class="img" alt="available"/>
-            </div>
-            <div class="last-2">
-              <h4>Multi-Post Stories</h4>
-              <h5>Uber Navigation</h5>
-              <div class="menu menu1">
-                <ul class="Tonic-menu Tonic-menu1 ">
-                  <li class="menu1-1">Uber</li>
-                  <li class="menu1-2">Lead Developer</li>
-                  <li class="menu1-3">2018</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction1">
-                A smart assistance to make driving more safe, efficient, and fun by 
-                unlocking your most expensive computer. your car.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
     </section>
-    <div class="background">
-      <section class="aboutMe" id="about">
-        <div class="headline-main-container1">
-          <div class="main-headline1">
-            <h3 class="welcome">
-              About <br />
-                Myself
-            </h3>
-            <p class="introduction1">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <div class="link-up">
-              <h2>LET'S CONNECT</h2>
-              <div class="social-list"></div>
-                <ul>
-                  <li>
-                    <a href="#">
-                      <img src="image/github.png" class="icon" alt="git"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/Linkedin_icon.png" class="icon" alt="linkedin"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://google.com">
-                      <img src="image/angellist.png" class="icon" alt="google"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/twitter.png" class="icon" alt="twitter"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/medium.png" class="icon" alt="mediamarket"/>
-                    </a>
-                  </li>
-                </ul>
-                <div class="btn-T button">
-                  <button type="button">Get my resume</button>
+
+    <section class="work-section" id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 ">
+                    <div class="row project overflow-hidden mb-4 shadow-sm position-relative">
+                        <div class="col-auto p-4 d-lg-block">
+                            <img src="./image/portfolio1.png" alt="image portfolio-1">
+                        </div>
+                        <div class="col p-4 details">
+                            <h3 class="mb-0 title">Tonic</h3>
+                            <div class="mb-1 text-muted work-info">
+                                <ul>
+                                    <li class="intro">Canopy</li>
+                                    <li><i class="fa fa-circle"></i> Back End Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p class="card-text">
+                                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            </p>
+
+                            <div class="tags">
+                                <span class="badge rounded-pill bg-tag">html</span>
+                                <span class="badge rounded-pill bg-tag">css</span>
+                                <span class="badge rounded-pill bg-tag">javascript</span>
+                            </div>
+                            <button type="button" id="btn-1" class="btn btn-outline-primary btn-lg">See project</button>
+                        </div>
+                    </div>
+
+                    <div class="row project overflow-hidden mb-4 shadow-sm position-relative">
+                        <div class="col-auto p-4 d-lg-block">
+                            <img src="./image/portfolio2.png" alt="image portfolio-1">
+                        </div>
+                        <div class="col p-4 details">
+                            <h3 class="mb-0 title">Multi-Post Stories</h3>
+                            <div class="mb-1 text-muted work-info">
+                                <ul>
+                                    <li class="intro">FACEBOOK</li>
+                                    <li> <i class="fa fa-circle"></i> Full Stack Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p class="card-text">
+                                Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                            </p>
+
+                            <div class="tags">
+                                <span class="badge rounded-pill bg-tag">html</span>
+                                <span class="badge rounded-pill bg-tag">ruby on rails</span>
+                                <span class="badge rounded-pill bg-tag">css</span>
+                                <span class="badge rounded-pill bg-tag">javascript</span>
+                            </div>
+                            <button type="button" id="btn-2" class="btn btn-outline-primary btn-lg">See project</button>
+                        </div>
+                    </div>
+
+                    <div class="row project overflow-hidden mb-4 shadow-sm position-relative">
+                        <div class="col-auto p-4 d-lg-block">
+                            <img src="./image/portfolio3.png" alt="image portfolio-1">
+                        </div>
+                        <div class="col p-4 details">
+                            <h3 class="mb-0 title">Facebook 360</h3>
+                            <div class="mb-1 text-muted work-info">
+                                <ul>
+                                    <li class="intro">FACEBOOK</li>
+                                    <li> <i class="fa fa-circle"></i> Full Stack Dev</li>
+                                    <li><i class="fa fa-circle"></i> 2015</li>
+                                </ul>
+                            </div>
+                            <p class="card-text">
+                                Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                            </p>
+
+                            <div class="tags">
+                                <span class="badge rounded-pill bg-tag">html</span>
+                                <span class="badge rounded-pill bg-tag">css</span>
+                                <span class="badge rounded-pill bg-tag">javascript</span>
+                            </div>
+                            <button type="button" id="btn-3" class="btn btn-outline-primary btn-lg">See project</button>
+                        </div>
+                    </div>
+
+
+                    <div class="row project overflow-hidden mb-4 shadow-sm position-relative">
+                        <div class="col-auto p-4 d-lg-block">
+                            <img src="./image/portfolio4.png" alt="image portfolio-1">
+                        </div>
+                        <div class="col p-4 details">
+                            <h3 class="mb-0 title">Uber Navigation</h3>
+                            <div class="mb-1 text-muted work-info">
+                                <ul>
+                                    <li class="intro">UBER</li>
+                                    <li> <i class="fa fa-circle"></i> Lead Developer</li>
+                                    <li><i class="fa fa-circle"></i> 2018</li>
+                                </ul>
+                            </div>
+                            <p class="card-text">
+                                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                            </p>
+
+                            <div class="tags">
+                                <span class="badge rounded-pill bg-tag">html</span>
+                                <span class="badge rounded-pill bg-tag">ruby on rails</span>
+                                <span class="badge rounded-pill bg-tag">css</span>
+                                <span class="badge rounded-pill bg-tag">javascript</span>
+                            </div>
+                            <button type="button" id="btn-4" class="btn btn-outline-primary btn-lg">See project</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
-          <div class="main-knowledges">
-            <ul class="knowledges">
-              <li class="languages knw">
-                <div class="lang">
-                  <h3>Langguages</h3>
-                  <i class="fas fa-chevron-down"></i>
-                </div>
-                <ul>
-                  <li class="java">
-                    <img src="image/css.svg" class="img-list" alt="javascript"/>
-                    <pre>JavaScript</pre>
-                  </li>
-                  <li class="java">
-                    <img src="image/js.svg" class="img-list" alt="html"/>
-                    <pre>HTML</pre>
-                  </li>
-                  <li class="java">
-                    <img src="image/html.svg" class="img-list" alt="css"/>
-                    <pre>Css</pre>
-                  </li>
-                </ul>
-              </li>
-              <li class="frameworks knw">
-                <div class="lang">
-                  <h3>Frameworks</h3>
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </li>
-              <li class="skills knw">
-                <div class="lang">
-                  <h3>Skills</h3>
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </section>
-      <section class="contact-section" id="contact">
-        <form action="https://formspree.io/f/xgerldko" method="post" class="">
-          <h3>Contact me</h3>
-          <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-          <div class="coverUl">
-            <ul class="contact-form">
-              <li class="contact-item">
-                <input type="text" name="name" placeholder="Yeremias" maxlength="30" required/>
-              </li>
-              <li class="contact-item">
-                <input type="email" name="email" placeholder="natajayanj14@gmai.com" required/>
-              </li>
-              <li class="contact-item">
-                <textarea name="message" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
-              </li>
-              <li class="subm">
-                <button type="submit">Get it Touch</button>
-              </li>
-            </ul>
-          </div>
-        </form>
-      </section>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row justify-content-center align-content-center">
+                <div class="col-md-6">
+                    <div class="about-bio">
+                        <h1 class="title">About Myself</h1>
+                        <p>
+                            Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                        </p>
+                        <a href="#">Let's connect</a>
+                        <ul class="media">
+                            <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
+                            <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
+                            <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-primary btn-lg">Get my resume</button>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <ul class="stacks">
+                        <li class="languages">
+
+                            <a href="#">
+                                <h2>Languages</h2>
+                            </a>
+                            <ul class="grid-container">
+                                <li>
+
+                                    <img src="./image/js.png" alt="js_logo">
+                                    <p>JavaScript</p>
+
+                                </li>
+                                <li>
+
+                                    <img src="./image/html.png" alt="html_logo">
+                                    <p>HTML</p>
+
+                                </li>
+
+                                <li>
+
+                                    <img src="./image/css.png" alt="css_logo">
+                                    <p>CSS</p>
+
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <h2>Frameworks</h2>
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+                                <h2>Skills</h2>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2>Contact me</h2>
+                <p class="contact-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <form action="https://formspree.io/f/xjvjejyb" method="POST">
+                    <input name="name" type="text" placeholder="Enter your name" required="" maxlength="30">
+                    <input name="email" type="email" placeholder="Enter your email" required="">
+                    <textarea name="message" placeholder="Leave a message" maxlength="500" required=""></textarea>
+                    <button type="submit" class="btn-one">Get in touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header mo-header">
+                <div class="modal-top">
+                    <h5 class="title" id="name">hi</h5>
+                    <ul class="modal-tag">
+                        <li class="intro" id="companyName"></li>
+                        <li><i class="fa fa-circle"></i> <span id="job"></span></li>
+                        <li><i class="fa fa-circle"></i> <span id="year"></span></li>
+                    </ul>
+                </div>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+
+            <div class="container">
+
+                <div class="row justify-content-center align-content-center">
+                    <div class="col-lg-12 col-sm-3">
+                        <div id="carouselProjectIndicators" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="./image/portfolio1.png" alt="First slide" id="img">
+                                </div>
+
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-sm-3">
+                        <div class="row justify-content-center align-content-center modal-description">
+                            <div class="col-lg-8">
+                                <p class="modal-text" id="description"> </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="modal-tech">
+                                    <div class="tech-tag">
+                                        <ul class="tags" id="list">
+                                            <li class="badge rounded-pill bg-tag" id="tags"></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="tech-btn">
+                                        <button type="button" class="btn btn-outline-primary btn-md">See project <i class="fa fa-external-link"></i></button>
+                                        <button type="button" class="btn btn-outline-primary btn-md">See project <i class="fa fa-github"></i></button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
     </div>
-    <script src="menu.js"></script>
-  </body>
+
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+
 </html>
