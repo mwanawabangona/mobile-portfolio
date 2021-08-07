@@ -1,58 +1,69 @@
+# Portfolio portfolio
 
-# Portfolio project
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+For this portfolio website, is about of implemention of a client-side validation of the data in the contact form before submission.
+- Process user input according to business rules.
+- Use client-side validation to catch and throw errors in the UI.
 
-> This is a project where I am creating a portfolio.
 
+![screenshot](./image/contact.PNG)
 
+ 
+
+## Live Demo
+
+[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
+ 
 ## Built With
 
-- Major languages wchich include HTML, CSS & Javascript
-- Frameworks like scss
-- Technologies used
+- HTML
+- CSS
+- Javascript
+- Bootstrap 
+- HTML&CSS Linter
+- Git
 
+## Get Started
 
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
 
-## Getting Started
+Run the command below from the Terminal:
 
-**This is when I am starting my project**
+      git clone <URL> 'https://github.com/mwanawabangona/mobile-portfolio' in your terminal
 
+	  cd microverse_portfolio
 
-To get a copy up and running you follow these simple example steps.
-
-### Setup
--This is the setup of our machine and requirements to achieve this project.
-
-### Install
--This is where we install all the packages and all the modules needed for the project and follow all the procedures to start the project.
--We start by;
-
- -Create a github repository
- -Create the folder
- -Create a gitignore file and a README file
- -Add it and commit it
- -Set up the linters of html and css
- -Add it ad commit
- -Install the modules and packages
-
-
-### Run tests
--This is just to make sure that all the work is running perfectly and with no errors.
+	  start index.html
 
 
 
 ## Authors
 
-👤 **Isabella Namutenda**
+👤 **Ellis**
 
-- GitHub: [Isabellanamutenda](https://github.com/Isabellanamutenda)
-- Twitter: [@INamtenda](https://twitter.com/INamtenda)
-- LinkedIn: [Isabella Namutenda](https://www.linkedin.com/in/isabella-namutenda/)
+- Location: Zambia
+- GitHub: [@mwnanawabangona](https://github.com/mwanawabangona)
+- Twitter: [@Ellis_aah](https://twitter.com/Ellis-aah)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
-👤 **Taheny BELGUITH**
 
-- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
-- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
-- LinkedIn: [belguith taheny](https://www.linkedin.com/in/belguith-taheny-47b93a162/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/mwanawabangona/mobile-portfolio/issues).
 
 ## Show your support
+
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse and my Coding Partners
+- Paka OLIPLICHE
+- Yannick codecaiine
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
