@@ -297,8 +297,8 @@ body {
 .card-tags {
   display: flex;
   gap: 0.8rem;
-  position:relative;
-  bottom: 1px;;
+  position: relative;
+  bottom: 1px;
 }
 
 .card-tags li {
@@ -746,7 +746,6 @@ body {
     bottom: 8px;
   }
 }
-
 
 @media screen and (min-width: 2100px) {
   html {
