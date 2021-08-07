@@ -1,375 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXBV13V4WN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-WXBV13V4WN');
-    </script>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JE8CFDZQT6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-JE8CFDZQT6');
+  </script>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Ellis Portfolio</title>
+ 
   </head>
+
   <body>
 
-  <div id="menuId" class="myMenu">
-    <ul >
-      <li class="claList"><a href="#portfolio">Portfolio</a></li>
-      <li class="claList"><a href="#about">About</a></li>
-      <li class="claList"><a href="#contact">Contact</a></li>
-    </ul>
-    <img src="./image/IconX.svg" alt="Close Menu" class="close" id="closeMenu">
-  </div>
-
-
-    <header id="header">
-      <div class="header-container">
-        <div class="logo">
-          <a href="https://github.com/OLIPLICHE/portfolio/pull/1">My Logo</a>
-        </div>
-        <nav class="navbar">
-          <ul class="ul-navbar">
-            <li><a class="a-navbar" href="#Portfolio">Portfolio</a></li>
-            <li><a class="a-navbar" href="#About">About</a></li>
-            <li><a class="a-navbar" href="#Contact">Contact</a></li>
+    <div class="popup-overlay hidden" id="popup">
+      <div class="card popup desk">
+        <div class="card-content desk">
+          <img
+            src="images/section-work/popupClose-icon.svg"
+            alt="close-overlay"
+            class="popup-close-btn"
+          />
+          <h2 class="heading-secondary desk" id="name">Tonic</h2>
+          <ul class="card-info desk">
+            <li id="companyName">CANOPY</li>
+            <li>
+              <img src="images/section-work/Counter.svg" alt="dot" class="card-info-dot"/>
+            </li>
+            <li class="input-text" id="job">Back End Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text" id="data">2015</li>
           </ul>
-          <div class="humberger" id="humbergerShape">
-            <i class="fa fa-bars"></i>
+          <img
+            class="card-img desk"
+            id="img"
+            src="images/section-work/snapshoot4.png"
+            alt="Tonic"
+          />
+          <div class="desk-pop">
+            <div class="first">
+              <p class="text-s mob desk" id="description"></p>
+            </div>
+            <div class="second">
+              <ul class="btn-tags desk" id="tags"></ul>
+              <div class="line"></div>
+              <div class="popup-button desk">
+                <a href="#" class="button btn-element desk"
+                  >See Live
+                  <img src="images/section-work/Live-icon.svg" alt="live"
+                /></a>
+                <a href="#" class="button btn-element desk"
+                  >See Source
+                  <img src="images/section-work/Github-icon.svg" alt="git"
+                /></a>
+              </div>
+            </div>
           </div>
-        </nav>
+        </div>
+      </div>
+    </div>
+ 
+
+    <nav class="navigation">
+      <p class="logo">My Logo</p>
+      <img src="images/Union.svg" alt="logo" class="hamburger open-menu" />
+      <ul class="item-navigation">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="overlay hidden">
+      <button type="button" class="close-overlay close-menu">
+        <img src="images/close-overlay.svg" alt="close-overlay" />
+      </button>
+
+      <ul class="sections-list">
+        <li><a href="#" class="option">Portfolio</a></li>
+        <li><a href="#" class="option">About</a></li>
+        <li><a href="#" class="option">Contact</a></li>
+      </ul>
+    </div>
+
+    <header class="header">
+      <div class="header-text">
+        <h1 class="head-p">I'm Ellis<br> Glad to see you!</h1>
+        <p class="text-p">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h2>LET'S CONNECT</h2>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><img src="./images/Twitter.svg" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/Linkedin-icon.svg" alt="Linkedin-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/Medium.svg" alt="Medium" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/GitHub.svg" alt="GitHub" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/Vector.svg" alt="Vector" /></a>
+          </li>
+        </ul>
       </div>
     </header>
-    <main id="main-container">
-      <section class="headline">
-        <div class="headline-main-container">
-          <h1 class="welcome">
-            I'm Ellis <br />
-            Glad to see
-            you!
-          </h1>
-          <p class="intro">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
+
+    <section class="work" id="work">
+      <div class="card card-1">
+        <img
+          class="card-img popup-img"
+          src="images/section-work/snapshoot4.png"
+          alt="Tonic"
+        />
+        <div class="card-content">
+          <h2 class="heading-secondary">Tonic</h2>
+          <ul class="card-info">
+            <li>CANOPY</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">Back End Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">2015</li>
+          </ul>
+          <p class="text-s">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
           </p>
-          <div class="link-up">
-            <h2>LET'S CONNECT</h2>
-            <div class="social-list">
-              <ul>
-                <li>
-                  <a href="#"><img alt="github" src="image/github.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="twitter" src="image/twitter.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="image/Linkedin_icon.png" alt="linkedin"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="medium" src="image/medium.png"/></a>
-                </li>
-                <li>
-                  <a href="#"><img alt="angellist" src="image/angellist.png"/></a>
-                </li>
-              </ul>
-            </div>
+          <ul class="btn-tags">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-1">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
-      </section>
-    </main>
-    <section id="workers" id="portfolio">
-      <ul class="boxes">
-        <li class="box box1">
-          <div class="box-div one">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio.svg" class="img" alt="tonic"/>
-            </div>
-            <div class="last-2">
-              <h4>Tonic</h4>
-              <address>Facebook 360</address>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="card card-2">
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot3.png"
+          alt="Tonic"
+        />
+        <div class="card-content">
+          <h2 class="heading-secondary">Multi-Post Stories</h2>
+          <ul class="card-info">
+            <li>FACEBOOK</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">Full Stack Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">2015</li>
+          </ul>
+          <p class="text-s">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <ul class="btn-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" onclick="changePopup(2)">
+            <button class="button" id="btn-2" type="button">See Project</button>
           </div>
-        </li>
-        <li class="box box2">
-          <div class="box-div third">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio(3).svg" class="img" alt="stories"/>
-            </div>
-            <div class="last-2">
-              <h4>Multi-Post Stories</h4>
-              <h6>Multi-Post Stories</h6>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>  
+        </div>
+      </div>
+      <div class="card card-3">
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot.png"
+          alt="Tonic"
+        />
+        <div class="card-content">
+          <h2 class="heading-secondary">Facebook 360</h2>
+          <ul class="card-info">
+            <li>FACEBOOK</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">Back End Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">2015</li>
+          </ul>
+          <p class="text-s">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="btn-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-3">
+            <button class="button" type="button">See Project</button>
           </div>
-        </li>
-        <li class="box box3">
-          <div class="box-div one">
-            <div class="Tonic last-1">
-              <img src="image/Snapshoot_Portfolio(2).svg" class="img_ignore" alt="facebook"/>
-              <img src="image/Snapshoot-first.svg" class="img1" alt="facebook"/>
-            </div>
-            <div class="last-2">
-              <h4>Tonic</h4>
-              <h6>Multi-Post Stories</h6>
-              <div class="menu menu3">
-                <ul class="Tonic-menu Tonic-menu3">
-                  <li class="menu3-1">FACEBOOK</li>
-                  <li class="menu3-2">Full Stack Dev</li>
-                  <li class="menu3-3">2015</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction3">
-                Experimental content creation feature that allows users to add to an existing
-                story over the course of a day wihtout spamming their friends.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="card card-4">
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot1.png"
+          alt="Tonic"
+        />
+        <div class="card-content">
+          <h2 class="heading-secondary">Uber Navigation</h2>
+          <ul class="card-info">
+            <li>Uber</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">Lead Developer</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text">2018</li>
+          </ul>
+          <p class="text-s">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <ul class="btn-tags">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <div class="card-button" id="btn-4">
+            <button class="button" type="button">See Project</button>
           </div>
-        </li>
-        <li class="box box4">
-          <div class="box-div last">
-            <div class="Tonic last-1">
-              <img src="image/SnapshootPortfolio(1).svg" class="img" alt="available"/>
-            </div>
-            <div class="last-2">
-              <h4>Multi-Post Stories</h4>
-              <h5>Uber Navigation</h5>
-              <div class="menu menu1">
-                <ul class="Tonic-menu Tonic-menu1 ">
-                  <li class="menu1-1">Uber</li>
-                  <li class="menu1-2">Lead Developer</li>
-                  <li class="menu1-3">2018</li>
-                  <li class="menu-1">CANOPY</li>
-                  <li class="menu-2">Back End Dev</li>
-                  <li class="menu-2">2015</li>
-                </ul>
-              </div>
-              <p class="instruction">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-              <p class="instruction1">
-                A smart assistance to make driving more safe, efficient, and fun by 
-                unlocking your most expensive computer. your car.
-              </p>
-              <div class="language language1">
-                <ul>
-                  <li class="l1">html</li>
-                  <li class="l2">Ruby on rails</li>
-                  <li class="l3">css</li>
-                  <li class="l4">javaScript</li>
-                </ul>
-              </div>
-              <div class="btnt">
-                <div class="btn-T">
-                  <button type="button">See Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
-    <div class="background">
-      <section class="aboutMe" id="about">
-        <div class="headline-main-container1">
-          <div class="main-headline1">
-            <h3 class="welcome">
-              About <br />
-                Myself
-            </h3>
-            <p class="introduction1">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <div class="link-up">
-              <h2>LET'S CONNECT</h2>
-              <div class="social-list"></div>
-                <ul>
-                  <li>
-                    <a href="#">
-                      <img src="image/github.png" class="icon" alt="git"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/Linkedin_icon.png" class="icon" alt="linkedin"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://google.com">
-                      <img src="image/angellist.png" class="icon" alt="google"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/twitter.png" class="icon" alt="twitter"/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="image/medium.png" class="icon" alt="mediamarket"/>
-                    </a>
-                  </li>
-                </ul>
-                <div class="btn-T button">
-                  <button type="button">Get my resume</button>
-                </div>
-              </div>
-          </div>
-          <div class="main-knowledges">
-            <ul class="knowledges">
-              <li class="languages knw">
-                <div class="lang">
-                  <h3>Langguages</h3>
-                  <i class="fas fa-chevron-down"></i>
-                </div>
-                <ul>
-                  <li class="java">
-                    <img src="image/css.svg" class="img-list" alt="javascript"/>
-                    <pre>JavaScript</pre>
-                  </li>
-                  <li class="java">
-                    <img src="image/js.svg" class="img-list" alt="html"/>
-                    <pre>HTML</pre>
-                  </li>
-                  <li class="java">
-                    <img src="image/html.svg" class="img-list" alt="css"/>
-                    <pre>Css</pre>
-                  </li>
-                </ul>
-              </li>
-              <li class="frameworks knw">
-                <div class="lang">
-                  <h3>Frameworks</h3>
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </li>
-              <li class="skills knw">
-                <div class="lang">
-                  <h3>Skills</h3>
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </li>
-            </ul>
+
+    <section class="about" id="about">
+      <div class="about-text">
+        <div class="first-part">
+          <h2 class="head-p">About Myself</h2>
+          <p class="text-p">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+         <h2>LET'S CONNECT</h2>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><img src="./images/Twitter.svg" alt="Twitter" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/Linkedin-icon.svg" alt="Linkedin-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/Medium.svg" alt="Medium" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/GitHub.svg" alt="GitHub" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./images/Vector.svg" alt="Vector" /></a>
+            </li>
+          </ul>
+          <div class="about-button">
+            <a href="#" class="button">Get my resume</a>
           </div>
         </div>
-      </section>
-      <section class="contact-section" id="contact">
-        <form action="https://formspree.io/f/xgerldko" method="post" class="">
-          <h3>Contact me</h3>
-          <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-          <div class="coverUl">
-            <ul class="contact-form">
-              <li class="contact-item">
-                <input type="text" name="name" placeholder="Yeremias" maxlength="30" required/>
+        <div class="skills-list">
+          <div class="list-box">
+            <div class="list-btn">
+              Languages
+              <img src="images/section-about/Union.svg" alt="arrow" />
+            </div>
+            <ul class="list-selectors">
+              <li>
+                <img
+                  src="images/section-about/js.png"
+                  alt="javaScript"
+                />JavaScript
               </li>
-              <li class="contact-item">
-                <input type="email" name="email" placeholder="natajayanj14@gmai.com" required/>
+              <li>
+                <img src="images/section-about/html.png" alt="html" />HTML
               </li>
-              <li class="contact-item">
-                <textarea name="message" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
-              </li>
-              <li class="subm">
-                <button type="submit">Get it Touch</button>
-              </li>
+              <li><img src="images/section-about/css.png" alt="css" />CSS</li>
             </ul>
           </div>
-        </form>
-      </section>
-    </div>
-    <script src="menu.js"></script>
+          <div class="list-box">
+            <div class="list-btn">
+              Frameworks
+              <img src="images/section-about/Union.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="list-box">
+            <div class="list-btn">
+              Skills
+              <img src="images/section-about/Union.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="contact" id="contact">
+      <img
+        src="images/section-about/contact-form-shapes-mobile.svg"
+        alt="background"
+        class="contact-bg"
+      />
+      <div class="contact-text">
+        <h3 class="heading-tertiary">Contact me</h3>
+        <p class="secondary-text">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+      </div>
+      <form
+        id="contact-form"
+        method="POST"
+        class="contact-form"
+        action="https://formspree.io/f/xzbyjyva"
+      >
+        <ul>
+          <li>
+            <input
+              id="user-name"
+              type="text"
+              pattern="[A-Za-z]+"
+              class="contact-element"
+              name="user-name"
+              placeholder="Isabella"
+              maxlength="30"
+              required
+            />
+            <small></small>
+          </li>
+          <li>
+            <input
+              id="email"
+              type="email"
+              class="contact-element"
+              name="user-email"
+              placeholder="abc@gmail.com"
+              required
+            />
+          </li>
+
+          <li>
+            <textarea
+              id="text"
+              name="user-message"
+              class="contact-element"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
+          </li>
+          <li>
+            <p class="pop-msg">Please make sure the email is all lower case!</p>
+            <input
+              id="submit"
+              type="submit"
+              value="Get in touch"
+              class="button btn-contact"
+            />
+          </li>
+        </ul>
+      </form>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>

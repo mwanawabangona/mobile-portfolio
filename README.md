@@ -1,63 +1,58 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio
+# Portfolio project
 
-> The Portfolio project, basically a figma template where we applied some javascript with my programming partners of this week.  
+> This is a project where I am creating a portfolio.
 
-![screenshot](image/menu.png)
-![screenshot](image/menu2.png)
-
-This project is built with various sections, the "Header" "Headline", e.tc.  `The mobile Menu` is in the header section of the mobile version, which includes the logo, and navbar, and background templates. All elements (background and icons, logo) were exported from Figma phototypes. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
 
 ## Built With
 
-- HTML
-- CSS
-- Js
+- Major languages wchich include HTML, CSS & Javascript
+- Frameworks like scss
+- Technologies used
 
-## Live Demo
-- [Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
+
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
 
-- You can clone this repo by typing git clone `https://github.com/mwanawabangona/mobile-portfolio` on your terminal
-- Type cd `mobile-menu` to access the project on the terminal
+**This is when I am starting my project**
 
 
-### Prerequisites
-- Text editor
-- Git
-- Html
-- CSS
-- Js
+To get a copy up and running you follow these simple example steps.
 
-## Author
-👤 **Ellis**
+### Setup
+-This is the setup of our machine and requirements to achieve this project.
 
-- GitHub: [@githubhandle](https://github.com/mwanawabangona)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+### Install
+-This is where we install all the packages and all the modules needed for the project and follow all the procedures to start the project.
+-We start by;
 
-## Collaborators
+ -Create a github repository
+ -Create the folder
+ -Create a gitignore file and a README file
+ -Add it and commit it
+ -Set up the linters of html and css
+ -Add it ad commit
+ -Install the modules and packages
 
-👤 **Yannick-Noel AKA**
-- GitHub: [@githubhandle](https://github.com/codecaiine)
+
+### Run tests
+-This is just to make sure that all the work is running perfectly and with no errors.
 
 
-👤 **Paka**
 
-- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
+## Authors
 
-## 🤝⭐️ Contributing
+👤 **Isabella Namutenda**
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [Isabellanamutenda](https://github.com/Isabellanamutenda)
+- Twitter: [@INamtenda](https://twitter.com/INamtenda)
+- LinkedIn: [Isabella Namutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
-Feel free to check the [issues page](https://github.com/mwanawabangona/mobile-portfolio/issues).
+👤 **Taheny BELGUITH**
+
+- GitHub: [@TahenyBELGUITH](https://github.com/TahenyBELGUITH)
+- Twitter: [@BelguithTaheny](https://twitter.com/BelguithTaheny)
+- LinkedIn: [belguith taheny](https://www.linkedin.com/in/belguith-taheny-47b93a162/)
 
 ## Show your support
-
 Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
