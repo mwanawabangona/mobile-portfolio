@@ -298,7 +298,7 @@ body {
   display: flex;
   gap: 0.8rem;
   position:relative;
-  bottom: 12px;;
+  bottom: 1px;;
 }
 
 .card-tags li {
@@ -737,6 +737,16 @@ body {
     font-size: 75%;
   }
 }
+
+@media screen and (min-width: 500px) {
+  .card-tags {
+    display: flex;
+    gap: 0.8rem;
+    position: relative;
+    bottom: 8px;
+  }
+}
+
 
 @media screen and (min-width: 2100px) {
   html {
