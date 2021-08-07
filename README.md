@@ -1,54 +1,51 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio portfolio
 
-# My Portfolio
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+For this portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I store the information about the different projects in a JavaScript object.
 
-> The Portfolio project, basically a figma template where we applied some javascript with my programming partners of this week.  
 
-![screenshot](image/menu.png)
-![screenshot](image/menu2.png)
+![screenshot](./image/mobdemo.PNG)
 
-This project is built with various sections, the "Header" "Headline", e.tc.  `The mobile Menu` is in the header section of the mobile version, which includes the logo, and navbar, and background templates. All elements (background and icons, logo) were exported from Figma phototypes. Also, I parse a Figma design to create a UI. In the form, the data is collected by using `Formspree service(https://formspree.io/html)`.
+ 
 
+## Live Demo
+
+[Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
+ 
 ## Built With
 
 - HTML
 - CSS
-- Js
+- Javascript
+- Bootstrap 
+- HTML&CSS Linter
 
-## Live Demo
-- [Live Demo Link](https://mwanawabangona.github.io/mobile-portfolio/)
+## Get Started
 
-## Getting Started
-To get a local copy up and running follow these simple example steps.
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
 
-- You can clone this repo by typing git clone `https://github.com/mwanawabangona/mobile-portfolio` on your terminal
-- Type cd `mobile-menu` to access the project on the terminal
+Run the command below from the Terminal:
+
+      git clone <URL> 'https://github.com/mwanawabangona/mobile-portfolio' in your terminal
+
+	  cd microverse_portfolio
+
+	  start index.html
 
 
-### Prerequisites
-- Text editor
-- Git
-- Html
-- CSS
-- Js
 
-## Author
+## Authors
+
 👤 **Ellis**
 
-- GitHub: [@githubhandle](https://github.com/mwanawabangona)
+- Location: Zambia
+- GitHub: [@mwnanawabangona](https://github.com/mwanawabangona)
+- Twitter: [@Ellis_aah](https://twitter.com/Ellis-aah)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
-## Collaborators
 
-👤 **Yannick-Noel AKA**
-- GitHub: [@githubhandle](https://github.com/codecaiine)
-
-
-👤 **Paka**
-
-- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
-
-## 🤝⭐️ Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -57,6 +54,12 @@ Feel free to check the [issues page](https://github.com/mwanawabangona/mobile-po
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse and my Coding Partners
+- Paka OLIPLICHE
+- Yannick codecaiine
 
 ## 📝 License
 
