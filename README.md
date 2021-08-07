@@ -6,7 +6,7 @@ For this portfolio website, is about of implemention of a client-side validation
 - Use client-side validation to catch and throw errors in the UI.
 
 
-![screenshot](./image/contact.png)
+![screenshot](./images/contact.png)
 
  
 
