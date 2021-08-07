@@ -297,6 +297,8 @@ body {
 .card-tags {
   display: flex;
   gap: 0.8rem;
+  position:relative;
+  bottom: 12px;;
 }
 
 .card-tags li {
